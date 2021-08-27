@@ -8,7 +8,7 @@ Menu options include:
 2. Login
 3. Exit
 
-A registered user can do: 
+A registered user can do the following functionality: 
 1. View Balance
 2. View Transfer History
 3. View Pending Requests
