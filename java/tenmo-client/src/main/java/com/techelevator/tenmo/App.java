@@ -6,7 +6,6 @@ import com.techelevator.tenmo.services.AuthenticationService;
 import com.techelevator.tenmo.services.AuthenticationServiceException;
 import com.techelevator.tenmo.services.TransferService;
 import com.techelevator.view.ConsoleService;
-/*import org.apiguardian.api.API;*/
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
@@ -266,10 +265,4 @@ public class App {
 		return new UserCredentials(username, password);
 	}
 
-	private HttpHeaders makeHttp(AuthenticatedUser currentUser){
-		HttpHeaders httpHeaders = new HttpHeaders();
-		httpHeaders.setContentType(MediaType.APPLICATION_JSON);
-		httpHeaders.setBearerAuth(currentUser.getToken());
-		return httpHeaders;
-	}
 }
