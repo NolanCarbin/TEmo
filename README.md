@@ -1,4 +1,4 @@
-# TEmo - Tech Elevator Capstone II
+# TEnmo - Tech Elevator Capstone II
 
 TEmo is a virtual payment transfer service used to send and request money from different registered users. 
 It's a web based API application with client-side CLI functionality that uses Spring Boot, MVC pattern, JDBC, and PostgreSQL.
